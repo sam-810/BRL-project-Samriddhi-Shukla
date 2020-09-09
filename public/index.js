@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    /* Create variables to Dom needed DOM elements */
+    
     var $scrapeTerm = $("#scrapeTerm");
     var $scrapeButton = $("#scrapeButton");
     var $searchTerm = $("#searchTerm");
@@ -8,7 +8,7 @@ $(document).ready(function () {
     var $getAllButton = $("#getAllButton");
     var $tableDiv = $("#tableDiv");
 
-    /* Create API object to make AJAX calls */
+   
     var searchAPI = {
 
         getAll: function () {
